@@ -10,7 +10,7 @@ public class wii : MonoBehaviour
     private void Start()
     {
 
-        foreach (var item in FindObjectsOfType<a>())
+        foreach (var item in FindObjectsOfType<a>(true))
         {
             list.Add(item.gameObject);
         }
